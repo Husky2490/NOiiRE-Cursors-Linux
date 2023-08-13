@@ -140,6 +140,10 @@ file="Shiori hand"
 ln -s "$output/$file" "$output/pencil"
 echo "Created symlinks for $output/$file"
 
+# alternate
+file="Shiori alt"
+ln -s "$output/$file" "$output/center_ptr"
+
 
 echo [Icon Theme] >> "$outputRoot/index.theme"
 echo Name=Shiori Novella Cursor >> "$outputRoot/index.theme"
